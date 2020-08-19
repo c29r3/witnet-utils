@@ -1,0 +1,10 @@
+
+  wit-%MONIKER%:
+    hostname:  wit-%MONIKER%
+    container_name:  wit-%MONIKER%
+    image: witnet/witnet-rust:latest
+    ports:
+      - "%P2P_PORT%:21337"
+    restart: always
+    volumes:
+      - "./witnet%MONIKER%:/.witnet:rw"
