@@ -1,0 +1,402 @@
+version: '3'
+
+services:
+  wit-1:
+    hostname:  wit-1
+    container_name:  wit-1
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21337:21337"
+    restart: always
+    volumes:
+      - "./witnet1:/.witnet:rw"
+
+  wit-2:
+    hostname:  wit-2
+    container_name:  wit-2
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21338:21337"
+    restart: always
+    volumes:
+      - "./witnet2:/.witnet:rw"
+
+  wit-3:
+    hostname:  wit-3
+    container_name:  wit-3
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21339:21337"
+    restart: always
+    volumes:
+      - "./witnet3:/.witnet:rw"
+
+  wit-4:
+    hostname:  wit-4
+    container_name:  wit-4
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21340:21337"
+    restart: always
+    volumes:
+      - "./witnet4:/.witnet:rw"
+
+  wit-5:
+    hostname:  wit-5
+    container_name:  wit-5
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21341:21337"
+    restart: always
+    volumes:
+      - "./witnet5:/.witnet:rw"
+
+  wit-6:
+    hostname:  wit-6
+    container_name:  wit-6
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21342:21337"
+    restart: always
+    volumes:
+      - "./witnet6:/.witnet:rw"
+
+  wit-7:
+    hostname:  wit-7
+    container_name:  wit-7
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21343:21337"
+    restart: always
+    volumes:
+      - "./witnet7:/.witnet:rw"
+
+  wit-8:
+    hostname:  wit-8
+    container_name:  wit-8
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21344:21337"
+    restart: always
+    volumes:
+      - "./witnet8:/.witnet:rw"
+
+  wit-9:
+    hostname:  wit-9
+    container_name:  wit-9
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21345:21337"
+    restart: always
+    volumes:
+      - "./witnet9:/.witnet:rw"
+
+  wit-10:
+    hostname:  wit-10
+    container_name:  wit-10
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21346:21337"
+    restart: always
+    volumes:
+      - "./witnet10:/.witnet:rw"
+
+  wit-11:
+    hostname:  wit-11
+    container_name:  wit-11
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21347:21337"
+    restart: always
+    volumes:
+      - "./witnet11:/.witnet:rw"
+
+  wit-12:
+    hostname:  wit-12
+    container_name:  wit-12
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21348:21337"
+    restart: always
+    volumes:
+      - "./witnet12:/.witnet:rw"
+
+  wit-13:
+    hostname:  wit-13
+    container_name:  wit-13
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21349:21337"
+    restart: always
+    volumes:
+      - "./witnet13:/.witnet:rw"
+
+  wit-14:
+    hostname:  wit-14
+    container_name:  wit-14
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21350:21337"
+    restart: always
+    volumes:
+      - "./witnet14:/.witnet:rw"
+
+  wit-15:
+    hostname:  wit-15
+    container_name:  wit-15
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21351:21337"
+    restart: always
+    volumes:
+      - "./witnet15:/.witnet:rw"
+
+  wit-16:
+    hostname:  wit-16
+    container_name:  wit-16
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21352:21337"
+    restart: always
+    volumes:
+      - "./witnet16:/.witnet:rw"
+
+  wit-17:
+    hostname:  wit-17
+    container_name:  wit-17
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21353:21337"
+    restart: always
+    volumes:
+      - "./witnet17:/.witnet:rw"
+
+  wit-18:
+    hostname:  wit-18
+    container_name:  wit-18
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21354:21337"
+    restart: always
+    volumes:
+      - "./witnet18:/.witnet:rw"
+
+  wit-19:
+    hostname:  wit-19
+    container_name:  wit-19
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21355:21337"
+    restart: always
+    volumes:
+      - "./witnet19:/.witnet:rw"
+
+  wit-20:
+    hostname:  wit-20
+    container_name:  wit-20
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21356:21337"
+    restart: always
+    volumes:
+      - "./witnet20:/.witnet:rw"
+
+  wit-21:
+    hostname:  wit-21
+    container_name:  wit-21
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21357:21337"
+    restart: always
+    volumes:
+      - "./witnet21:/.witnet:rw"
+
+  wit-22:
+    hostname:  wit-22
+    container_name:  wit-22
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21358:21337"
+    restart: always
+    volumes:
+      - "./witnet22:/.witnet:rw"
+
+  wit-23:
+    hostname:  wit-23
+    container_name:  wit-23
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21359:21337"
+    restart: always
+    volumes:
+      - "./witnet23:/.witnet:rw"
+
+  wit-24:
+    hostname:  wit-24
+    container_name:  wit-24
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21360:21337"
+    restart: always
+    volumes:
+      - "./witnet24:/.witnet:rw"
+
+  wit-25:
+    hostname:  wit-25
+    container_name:  wit-25
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21361:21337"
+    restart: always
+    volumes:
+      - "./witnet25:/.witnet:rw"
+
+  wit-26:
+    hostname:  wit-26
+    container_name:  wit-26
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21362:21337"
+    restart: always
+    volumes:
+      - "./witnet26:/.witnet:rw"
+
+  wit-27:
+    hostname:  wit-27
+    container_name:  wit-27
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21363:21337"
+    restart: always
+    volumes:
+      - "./witnet27:/.witnet:rw"
+
+  wit-28:
+    hostname:  wit-28
+    container_name:  wit-28
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21364:21337"
+    restart: always
+    volumes:
+      - "./witnet28:/.witnet:rw"
+
+  wit-29:
+    hostname:  wit-29
+    container_name:  wit-29
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21365:21337"
+    restart: always
+    volumes:
+      - "./witnet29:/.witnet:rw"
+
+  wit-30:
+    hostname:  wit-30
+    container_name:  wit-30
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21366:21337"
+    restart: always
+    volumes:
+      - "./witnet30:/.witnet:rw"
+
+  wit-31:
+    hostname:  wit-31
+    container_name:  wit-31
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21367:21337"
+    restart: always
+    volumes:
+      - "./witnet31:/.witnet:rw"
+
+  wit-32:
+    hostname:  wit-32
+    container_name:  wit-32
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21368:21337"
+    restart: always
+    volumes:
+      - "./witnet32:/.witnet:rw"
+
+  wit-33:
+    hostname:  wit-33
+    container_name:  wit-33
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21369:21337"
+    restart: always
+    volumes:
+      - "./witnet33:/.witnet:rw"
+
+  wit-34:
+    hostname:  wit-34
+    container_name:  wit-34
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21370:21337"
+    restart: always
+    volumes:
+      - "./witnet34:/.witnet:rw"
+
+  wit-35:
+    hostname:  wit-35
+    container_name:  wit-35
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21371:21337"
+    restart: always
+    volumes:
+      - "./witnet35:/.witnet:rw"
+
+  wit-36:
+    hostname:  wit-36
+    container_name:  wit-36
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21372:21337"
+    restart: always
+    volumes:
+      - "./witnet36:/.witnet:rw"
+
+  wit-37:
+    hostname:  wit-37
+    container_name:  wit-37
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21373:21337"
+    restart: always
+    volumes:
+      - "./witnet37:/.witnet:rw"
+
+  wit-38:
+    hostname:  wit-38
+    container_name:  wit-38
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21374:21337"
+    restart: always
+    volumes:
+      - "./witnet38:/.witnet:rw"
+
+  wit-39:
+    hostname:  wit-39
+    container_name:  wit-39
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21375:21337"
+    restart: always
+    volumes:
+      - "./witnet39:/.witnet:rw"
+
+  wit-40:
+    hostname:  wit-40
+    container_name:  wit-40
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21376:21337"
+    restart: always
+    volumes:
+      - "./witnet40:/.witnet:rw"
