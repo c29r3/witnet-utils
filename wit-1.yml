@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  wit-1:
+    hostname:  wit-1
+    container_name:  wit-1
+    image: witnet/witnet-rust:latest
+    ports:
+      - "21337:21337"
+    restart: always
+    volumes:
+      - "./witnet1:/.witnet:rw"
